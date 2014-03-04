@@ -24,3 +24,5 @@ url-fetch.sh
   To start tailing url just run
 
   `url-fetch.sh http://example.com/file_to_tail`
+
+  Script will stop automatically if remote file will re-created e.g. in case of log rotation.
