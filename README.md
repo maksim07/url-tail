@@ -14,8 +14,8 @@ url-tail.sh
   Then copy script to your computer:
 
 ```
-sudo curl -o /usr/bin/url-fetch.sh -s https://raw.github.com/maksim07/url-tail/master/script/src/url-tail.sh
-sudo chmod +x url-fetch.sh
+sudo curl -o /usr/bin/url-tail.sh -s https://raw.github.com/maksim07/url-tail/master/script/src/url-tail.sh
+sudo chmod +x url-tail.sh
 ```
 
 # Usage
