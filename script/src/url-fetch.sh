@@ -51,6 +51,11 @@ off=$len
 until [ "$off" -gt "$len" ]; do
 	len=`get_length $url`
 
-	print_tail $url $off $len
+	if [ "$off" -eq "$len" ]; then
+		sleep 3
+	else
+		print_tail $url $off $len
+	fi
+
 	off=$len
 done
