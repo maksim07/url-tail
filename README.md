@@ -15,9 +15,7 @@ url-fetch.sh
 
 ```
   cd /usr/bin
-
   sudo wget https://raw.github.com/maksim07/url-tail/master/script/src/url-fetch.sh
-
   sudo chmod +x url-fetch.sh
 ```
 
