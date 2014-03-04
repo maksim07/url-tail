@@ -9,20 +9,20 @@ url-fetch.sh
   Script needs *curl* to be installed. Many Linux distributions as well as Mac OS X already have curl installed.
   On Ubuntu you can use this command to install curl:
 
-  `sudo apt-get install curl`
+`sudo apt-get install curl`
 
   Then copy script to your computer:
 
 ```
-  cd /usr/bin
-  sudo wget https://raw.github.com/maksim07/url-tail/master/script/src/url-fetch.sh
-  sudo chmod +x url-fetch.sh
+cd /usr/bin
+sudo wget https://raw.github.com/maksim07/url-tail/master/script/src/url-fetch.sh
+sudo chmod +x url-fetch.sh
 ```
 
 # Usage
 
   To start tailing url just run
 
-  `url-fetch.sh http://example.com/file_to_tail`
+`url-fetch.sh http://example.com/file_to_tail`
 
   Script will stop automatically if remote file will re-created e.g. in case of log rotation.
