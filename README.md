@@ -14,8 +14,8 @@ url-fetch.sh
   Then copy script to your computer:
 
   `cd /usr/bin`
-  `sudo wget `
-  `chmod +x url-fetch.sh`
+  `sudo wget https://raw.github.com/maksim07/url-tail/master/script/src/url-fetch.sh`
+  `sudo chmod +x url-fetch.sh`
 
 # Usage
 
