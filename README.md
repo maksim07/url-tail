@@ -1,4 +1,4 @@
-url-fetch.sh
+url-tail.sh
 =========
 
   This bash script monitors url for changes and print its tail into standard output. It acts as "tail -f" linux command.
@@ -14,7 +14,7 @@ url-fetch.sh
   Then copy script to your computer:
 
 ```
-sudo curl -o /usr/bin/url-fetch.sh -s https://raw.github.com/maksim07/url-tail/master/script/src/url-fetch.sh
+sudo curl -o /usr/bin/url-fetch.sh -s https://raw.github.com/maksim07/url-tail/master/script/src/url-tail.sh
 sudo chmod +x url-fetch.sh
 ```
 
@@ -22,6 +22,6 @@ sudo chmod +x url-fetch.sh
 
   To start tailing url just run
 
-`url-fetch.sh http://example.com/file_to_tail`
+`url-tail.sh http://example.com/file_to_tail`
 
   Script will stop automatically if remote file will be re-created e.g. in case of log rotation.
