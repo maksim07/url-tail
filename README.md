@@ -25,3 +25,7 @@ sudo chmod +x /usr/bin/url-tail.sh
 `url-tail.sh http://example.com/file_to_tail`
 
   Script will stop automatically if remote file will be re-created e.g. in case of log rotation.
+
+  If you want to start url-tail with some data displayed you can tell it how many bytes to fetch from the end of file
+
+`url-tail.sh http://example.com/file_to_tail` 1000
