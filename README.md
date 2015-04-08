@@ -28,4 +28,4 @@ sudo chmod +x /usr/bin/url-tail.sh
 
   If you want to start url-tail with some data displayed you can tell it how many bytes to fetch from the end of file
 
-`url-tail.sh http://example.com/file_to_tail` 1000
+`url-tail.sh http://example.com/file_to_tail 1000`
