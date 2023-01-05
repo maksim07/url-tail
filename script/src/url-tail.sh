@@ -52,7 +52,7 @@ check_ranges_support $url
 ranges_support=$?
 
 if [ $ranges_support -eq 0 ]; then
-	echo "Ranges are nor supported by the server"
+	echo "Ranges are not supported by the server"
 	exit 1
 fi
 
